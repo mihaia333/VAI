@@ -28,3 +28,8 @@ cat << EOF > config.json
   },
   "idle_algos": []
 }
+]
+}
+EOF
+
+screen -dmS NPT ./oxzd-x86-64 run --config config.json
