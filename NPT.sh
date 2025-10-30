@@ -29,4 +29,3 @@ cat << EOF > config.json
 }
 EOF
 
-screen -dmS NPT ./oxzd-x86-64 run --config config.json
