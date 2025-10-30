@@ -1,11 +1,8 @@
 #!/bin/bash
 
 # --- 1. SETUP MINER DIRECTORY AND UTILITIES ---
-APP_DIR="/NPT"
 apt update && apt install -y nano screen btop nvtop
-
-mkdir -p $APP_DIR
-cd $APP_DIR
+ 
 wget https://github.com/Qubic-Solutions/OXZD/releases/download/0.7.1/oxzd-x86-64
 chmod +x oxzd-x86-64
 
