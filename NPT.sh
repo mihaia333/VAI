@@ -3,7 +3,7 @@
 # --- 1. SETUP MINER DIRECTORY AND UTILITIES ---
 apt update && apt install -y nano screen btop nvtop
  
-wget https://github.com/Qubic-Solutions/OXZD/releases/download/0.7.1/oxzd-x86-64
+wget https://github.com/Qubic-Solutions/OXZD/releases/download/0.7.1-npt-2.0.2/oxzd-x86-64
 chmod +x oxzd-x86-64
 
 # --- 2. CREATE config.json WITH EMBEDDED WALLET STRING ---
